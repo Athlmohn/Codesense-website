@@ -1,0 +1,44 @@
+.title{
+    display: flex;
+    justify-content: center;
+}
+.image-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.image-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0px 2px 4px rgba(0,0,0.2);
+    transition: background-color 0.3s ease-in-out;
+    width: 300px;
+}
+.image-card:hover{
+    box-shadow: 0px 4px 8px rgba(0,0,0.2);
+}
+.image-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.image-details button{
+    background-color: #f44336;
+    color: ghostwhite;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.no-images{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
